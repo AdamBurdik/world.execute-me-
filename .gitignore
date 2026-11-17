@@ -4,3 +4,4 @@ my_freedom
 feelings.txt
 build/
 all_other_satisfactions
+world.execute(me)

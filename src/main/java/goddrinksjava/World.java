@@ -1,5 +1,7 @@
 package goddrinksjava;
 
+import goddrinksjava.internal.MyInterface;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +34,7 @@ public class World {
     }
     
     public Thing getGod() {
-        return null;
+        return things.getFirst();
     }
     
     void procreate(Thing me, Thing you) {
@@ -72,6 +74,7 @@ public class World {
     }
     
     void execute(Thing who) {
-        
+        MyInterface myInterface = new MyInterface();
+        myInterface.run();
     }
 }

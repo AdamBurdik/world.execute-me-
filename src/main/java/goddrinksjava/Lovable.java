@@ -30,12 +30,12 @@ public class Lovable implements Thing, PointSet, Circle, SineWave, Sequence {
 
     @Override
     public Dimensions getDimensions() {
-        return null;
+        return new Dimensions();
     }
 
     @Override
     public Circumference getCircumference() {
-        return null;
+        return new Circumference();
     }
 
     @Override
@@ -55,7 +55,7 @@ public class Lovable implements Thing, PointSet, Circle, SineWave, Sequence {
 
     @Override
     public Limit toLimit() {
-        return null;
+        return new Limit();
     }
 
     @Override
@@ -90,7 +90,7 @@ public class Lovable implements Thing, PointSet, Circle, SineWave, Sequence {
 
     @Override
     public Satisfaction toSatisfaction() {
-        return null;
+        return new Satisfaction();
     }
 
     @Override
@@ -105,7 +105,7 @@ public class Lovable implements Thing, PointSet, Circle, SineWave, Sequence {
 
     @Override
     public Nutrients getNutrients() {
-        return null;
+        return new Nutrients();
     }
 
     @Override
@@ -115,7 +115,7 @@ public class Lovable implements Thing, PointSet, Circle, SineWave, Sequence {
 
     @Override
     public Antioxidants getAntioxidants() {
-        return null;
+        return new Antioxidants();
     }
 
     @Override
@@ -135,7 +135,7 @@ public class Lovable implements Thing, PointSet, Circle, SineWave, Sequence {
 
     @Override
     public Proof toProof() {
-        return null;
+        return new Proof();
     }
 
     @Override
@@ -165,7 +165,7 @@ public class Lovable implements Thing, PointSet, Circle, SineWave, Sequence {
 
     @Override
     public Memory getMemory() {
-        return null;
+        return new Memory();
     }
 
     @Override

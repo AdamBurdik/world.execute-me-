@@ -2,6 +2,7 @@ import goddrinksjava.*
 
 plugins {
     id("java")
+    id("application")
 }
 
 group = "goddrinksjava"
@@ -14,4 +15,12 @@ World {
 
 Thing {
     addAttribute(me.love.jaylib)
+}
+
+application {
+    mainClass = "goddrinksjava.GodDrinksJava"
+}
+
+tasks.withType<JavaExec> {
+    jvmArgs("--enable-native-access=ALL-UNNAMED")
 }

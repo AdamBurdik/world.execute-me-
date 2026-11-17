@@ -48,13 +48,7 @@ class WorldBuilder(private val project: Project) {
             If I'm a tomato, then I will give you antioxidants
             If I'm a tabby cat, then I will purr for your enjoyment
             If I'm the only god, then you're the proof of my existence
-            You might also like
-            THE HEART PART 6
-            Drake
-            Rendezvous
-            Mili (JPN)
-            This Land Is Your Land
-            Woody Guthrie
+            
             [Pre-Chorus]
             Switch my gender to F to M
             And then do whatever from AM to PM
