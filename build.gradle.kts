@@ -1,3 +1,5 @@
+import goddrinksjava.*
+
 plugins {
     id("java")
 }
@@ -5,9 +7,11 @@ plugins {
 group = "goddrinksjava"
 version = "12.6.2016"
 
-repositories {
-    mavenCentral()
+World {
+    addThing("MavenCentral")
+    startSimulation()
 }
 
-dependencies {
+Thing {
+    addAttribute(me.love.jaylib)
 }
